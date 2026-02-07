@@ -23,44 +23,13 @@ const Index = () => {
     "https://drive.google.com/drive/folders/1cmvWEIlXdSSb3Fm8AavGkbE8y2UaJcgv?usp=sharing";
   const [editingEvent, setEditingEvent] = useState<number | null>(null);
   const [upcomingEvents, setUpcomingEvents] = useState([
-        {
-      date: "Oct 7",
-      title: "Workshop on Time management",
-      time: "10:00 AM - 4:00 PM",
-      venue: "49/-",
-       link :"https://forms.gle/cAcDUoxVMtk9o3dt5",
-    },
-        {
-      date: "Oct 18",
-      title: "Civil Services Awareness Drive",
-      time: "10:00 AM - 4:00 PM",
-      venue: "Free",
-      link: " https://forms.gle/uZkMsxayNxCrTfoN9 ",
-    },
-        {
-      date: "Oct 22",
-      title: "Current Affairs Group Discussion",
-      time: "10:00 AM - 4:00 PM",
-      venue: "Free",
-       link :" https://forms.gle/G7QkqYAMwNSRdbBX7",
-    },
     {
       date: "Nov 3rd & 4th",
       title: "Mock UPSC",
       time: "10:00 AM - 4:00 PM",
-      venue: "Free", // i am showing price here
-      link :"https://forms.gle/8y7Nd2Y5jjHLDwdV7",
+      venue: "Free",
+      link :"https://docs.google.com/forms/d/e/1FAIpQLSfJ73UTD0bWlxI50ViPAFmD2k3BRV6WJ38KHCDJVCVWe4k_Eg/viewform",
     },
-
-
-    {
-      date: "Nov 12",
-      title: "Extempore",
-      time: "10:00 AM - 4:00 PM",
-      venue: "49/-",
-       link :"https://forms.gle/EEpwdEP4FsShwkSLA",
-    },
-
   ]);
   const handleRegistration = () => {
     window.open(registrationFormLink, "_blank");

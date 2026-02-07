@@ -40,7 +40,7 @@ const Events = () => {
       seats: "Unlimited",
       type: "Workshop",
       link: "https://forms.gle/cAcDUoxVMtk9o3dt5",
-      display: true,
+      display: false,
     },
     {
       id: 2,
@@ -54,7 +54,7 @@ const Events = () => {
       seats: "Unlimited",
       type: "Drive",
       link: "https://forms.gle/uZkMsxayNxCrTfoN9 ",
-      display: true,
+      display: false,
     },
     {
       id: 3,
@@ -68,20 +68,19 @@ const Events = () => {
       seats: "20 slots available",
       type: "Group Discussion",
       link: " https://forms.gle/G7QkqYAMwNSRdbBX7",
-      display: true,
+      display: false,
     },
     {
       id: 1,
       title: "Mock UPSC",
-      date: "November 3rd & 4th 2025",
-      time: "10:00 AM - 4:00 PM",
-      venue: "Yet to be decided",
-      speaker: "Yet to be decided",
+      date: "February 17th,19th & 20th 2026",
+      time: "10:00 AM - 1:00 PM",
+      venue: "Sreenidhi Institute of Science and Technology",
+      speaker: "BOARD OF CSAC ",
       description:
         "Simulated UPSC exam experience to assess your preparation and boost exam readiness.",
-      seats: "50 seats available",
       type: "Mock exam",
-      link: "https://forms.gle/8y7Nd2Y5jjHLDwdV7",
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSfJ73UTD0bWlxI50ViPAFmD2k3BRV6WJ38KHCDJVCVWe4k_Eg/viewform",
       display: true,
     },
 
@@ -97,7 +96,7 @@ const Events = () => {
       seats: "Unlimited",
       type: "Discussion",
       link: "https://forms.gle/EEpwdEP4FsShwkSLA",
-      display: true,
+      display: false,
     },
   ];
 
