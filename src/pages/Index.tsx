@@ -23,8 +23,8 @@ const Index = () => {
     "https://drive.google.com/drive/folders/1cmvWEIlXdSSb3Fm8AavGkbE8y2UaJcgv?usp=sharing";
   const [editingEvent, setEditingEvent] = useState<number | null>(null);
   const [upcomingEvents, setUpcomingEvents] = useState([
-    {
-      date: "Nov 3rd & 4th",
+    {      
+      date: "Feb 17th , 19th and 20th 2026",
       title: "Mock UPSC",
       time: "10:00 AM - 4:00 PM",
       venue: "Free",
